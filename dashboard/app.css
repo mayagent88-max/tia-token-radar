@@ -30,6 +30,29 @@ a{color:var(--accent)}
 .top-meta{display:flex;flex-wrap:wrap;gap:var(--s3);justify-content:flex-end;color:var(--muted);font-size:13px}
 .top-meta span{white-space:nowrap}
 .lede{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,.65fr);gap:var(--s6);padding:var(--s6) 0 var(--s5)}
+.trail{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s3);padding:var(--s4) 0;border-bottom:1px solid var(--border)}
+.trail-step{display:flex;align-items:baseline;gap:var(--s2)}
+.trail-step b{font-size:20px;font-weight:650}
+.trail-step span{color:var(--muted);font-size:13px}
+.trail-arrow{color:var(--accent);font-family:var(--font-num)}
+.cal-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--s2);border-top:1px solid var(--border);padding-top:var(--s3)}
+.cal-stats .fact{display:flex;flex-direction:column;gap:2px;align-items:flex-start}
+.chart{margin-top:var(--s2)}
+.chart svg{width:100%;height:auto;display:block}
+.range{display:block;font-size:12px}
+.farm-cell{display:grid;gap:2px}
+.verdict{display:inline-flex;align-items:center;gap:6px;font-size:12px;white-space:nowrap}
+.verdict::before{content:"";width:6px;height:6px;border-radius:50%}
+.verdict.worth{color:var(--positive)}
+.verdict.worth::before{background:var(--positive)}
+.verdict.skip{color:var(--muted)}
+.verdict.skip::before{background:var(--muted)}
+.verdict-box{display:grid;gap:var(--s1);padding:var(--s3);border:1px solid var(--border);border-radius:var(--radius);background:var(--surface2)}
+.verdict-box b{font-size:15px}
+.verdict-box span{color:var(--muted);font-size:13px}
+.verdict-box.worth{border-color:var(--accent)}
+.verdict-box.worth b{color:var(--positive)}
+.verdict-box.skip b{color:var(--muted)}
 .lede p{color:var(--muted);max-width:62ch;margin-top:var(--s2)}
 .facts{display:grid;gap:var(--s2);align-content:start;border-left:1px solid var(--border);padding-left:var(--s5)}
 .fact{display:flex;align-items:baseline;justify-content:space-between;gap:var(--s3)}
@@ -72,6 +95,7 @@ tbody tr[data-selected="true"]{background:#14302a}
 .badge.watch::before{background:var(--accent2)}
 .badge.live::before{background:var(--positive)}
 .model{margin-top:var(--s4);padding:var(--s5);display:grid;gap:var(--s3)}
+.model.calib{margin-top:var(--s5)}
 .formula{font-family:var(--font-num);font-size:13px;line-height:1.7;color:var(--muted);overflow-wrap:anywhere}
 .mult-table{width:100%;border-collapse:collapse;font-size:13px}
 .mult-table td,.mult-table th{padding:6px 8px;border-bottom:1px solid var(--border)}
