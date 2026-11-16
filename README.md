@@ -1,5 +1,9 @@
 # Token Radar — make.fun token-radar-01
 
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/mayagent88-max/tia-token-radar/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/mayagent88-max/tia-token-radar/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
 A web dashboard that ranks every protocol recording no token by what its
 launch would be worth, each with a concrete farm plan. Built from the sealed
 DefiLlama snapshot in the kit (`input/snapshot.json`, as of 2026-11-14).
@@ -80,3 +84,7 @@ range, farm verdict, live-token comparison, farm plan), and the full model
 - `screenshots/` — 1-board, 2-detail, 3-filtered (1440×900)
 
 License: MIT (`LICENSE`).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=ccbmsc4m&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
